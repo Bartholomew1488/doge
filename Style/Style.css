@@ -1,0 +1,220 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    cursor: url(img/Alien%20Space%20Rocket%20Ship.cur), auto;
+    background: url(img/doge-dog-texture-sobaka.jpg) repeat;
+   
+}
+
+
+*,
+*:before,
+*after {
+    box-sizing: border-box;
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+a{
+    margin-left: auto;
+}
+
+
+
+.header{
+   display: flex;
+    justify-content: space-between;
+    height: 105px;
+    background-color: #101010;
+    color: white;
+    border-bottom: 3px solid rgba(255,255,255,0.8);
+    
+    
+   
+   
+}
+
+
+
+.ilogo{
+    display: block;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    transition-duration: 0.6s;
+}
+
+.ilogo:hover{
+    opacity: 0;
+}
+
+
+.logo{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    
+    
+}
+
+.logo a{
+    margin: 0 auto;
+}
+
+.btt{
+    display: inline-block;
+    
+    
+    
+}
+
+
+.moon{
+    
+    width: auto;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+
+.hui{
+     border: none;
+    display: flex;
+    margin:0 auto;
+    width: 1250px;
+    height: 1300px;
+}
+
+.btn {
+    margin-top: 25px;
+	position: relative;
+}
+.btn span {
+	position: relative;
+	z-index: 100;
+}
+.btn:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	top: 0;
+	width: 0%;
+	background: #b96df3;
+	opacity: 0.5;
+	animation: animate 300s ease-out;
+}
+@keyframes animate { 
+	0%  {
+		width: 0%;
+	} 
+	100% { 
+		width: 100%;
+	}
+}
+
+
+.select {
+    
+   background-color: rgba(255,255,255,0.4);
+    margin-top: 20px;
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 5px;
+    }
+
+
+
+.bttt{
+    
+    border-radius: 8px;
+    width: 170px;
+   background-color: #ffc108; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+}
+
+.bttt:hover {
+    background-color: rgba(16,16,16,0.9);
+    color: white;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+a {
+    color: black;
+  text-decoration: none !important;
+}
+
+
+
+
+
+
+
+::-webkit-scrollbar-button {
+background-image:url('');
+background-repeat:no-repeat;
+width:5px;
+height:0px
+}
+
+::-webkit-scrollbar-track {
+background-color:black;
+}
+
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 0px;
+border-radius: 0px;
+background-color:#ffc108;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background-color:rgba(255,255,255,0.6);
+}
+
+::-webkit-resizer{
+background-image:url('');
+background-repeat:no-repeat;
+width:4px;
+height:0px
+}
+
+::-webkit-scrollbar{
+width: 6px;
+}
+
+
+.footer{
+    width: 100%;
+    max-width: 1920px;
+    height: 50px;
+    background-color: #101010;
+    word-break: break-all;
+    color: white;
+    position: fixed;
+    top: 97%;
+   opacity: 0;
+}
+
+.tradingview-widget-container{
+    background-color: #101010;
+    position: fixed;
+    top:96%;
+    opacity: .8;
+}
